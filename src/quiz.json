@@ -1,5 +1,5 @@
 {
-    "titre": "Questionnaire: Échec et Mat… ou Échec et Pat ?",
+    "titre": "Échec et Mat… ou Échec et Pat ?",
     "minimum_score": 3,
     "message_succes": "Échec et mat ! T’es un vrai stratège des 64 cases !",
     "message_failure": "Oh non, échec et pat ! Mais pas de panique, même les grands maîtres ont commencé quelque part. Rejoue et progresse !",
@@ -35,7 +35,7 @@
             "bonne_reponse": "Lorsqu'un joueur abandonne ou subit un échec et mat"
         },
         {
-            "question": "Quel est le coup spécial permettant au roi et à une tour d'échanger de place sous certaines conditions ?",
+            "question": "Quel est le coup spécial permettant au roi et à une tour d'échanger de place ?",
             "propositions": [
                 "Le roque",
                 "L'en passant",

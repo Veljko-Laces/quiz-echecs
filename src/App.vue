@@ -66,28 +66,30 @@ const verifBonneReponse = () => {
 
 .quiz-card {
   width: 100%;
-  height: 425px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  height: 400px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
 
 .question-proposition {
   display: flex;
   flex-direction: column;
+  width: auto;
   padding: 8px 16px;
-}
+} 
 
 button {
   padding: 8px 12px;
+  width: 100%;
   background-color: black;
   color: white;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  border: none;
 }
 
 .button {
-  padding: 4px 16px;
-  display: flex;
-  justify-content: flex-end;
+  padding: 0px 26px;
 }
 
 .propositions {
@@ -106,13 +108,26 @@ button {
 @media (min-width: 768px) {
   .quiz-card {
   width: 600px;
-  height: 400px;
+  height: 375px;
 }
+
+.question-proposition {
+  padding: 12px 50px;
+} 
 
 .quiz {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  width: fit-content;
 }
 }
 </style>
